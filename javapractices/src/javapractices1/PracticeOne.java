@@ -1,4 +1,4 @@
-package javapractice;
+package javapractices1;
 
 public class PracticeOne {
 
@@ -15,5 +15,4 @@ System.out.print("hello world" + " " + "hello world");
 
 
 	}
-
 }
