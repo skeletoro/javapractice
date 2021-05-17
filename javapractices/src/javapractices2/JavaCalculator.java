@@ -73,18 +73,22 @@ public class JavaCalculator {
 		return answer;
 	}
 
-	private static double div() {
+	private static void div() {
 		System.out.println("enter first value for division");
 		double valuea = scanner.nextInt();
 		System.out.println("enter second value for division");
 		double valueb = scanner.nextInt();
+		if (valuea < valueb) {
 		double answer = valuea / valueb;
 
 		System.out.println("the answer is " + answer);
 		System.out.println("                                ");
 		System.out.println(
 				"main menu \nselect an option \n1 for addition \n2 for multiplication \n3 for subtraction \n4 for division \n0 to exit ");
-		return answer;
+	}
+		else  { System.out.println("sorry this cannot be completed");
+		System.out.println("                                ");
+		System.out.println("main menu \nselect an option \n1 for addition \n2 for multiplication \n3 for subtraction \n4 for division \n0 to exit ");
 	}
 
-}
+}}
