@@ -8,10 +8,10 @@ public class stringpractice {
 		two = two.replace("sunny","raining");
 		//System.out.println(one + two);
 		
-Person billy = new Person("billy", "male", 19);
+//Person billy = new Person("billy", "male", 19);
 		
 Book af = new Book ("Animal Farm", "fiction","08-17-1945" );
-billy.reading(af);
+System.out.println(Book.getTitle());
 
 }
 }
