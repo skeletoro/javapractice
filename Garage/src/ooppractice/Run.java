@@ -13,7 +13,8 @@ Boat c = new Boat("Chris Craft", 2010);
 garage.add(a);
 garage.add(b);
 garage.add(c);
-System.out.println(garage);
+//System.out.println(garage);
+a.accelerate();
 	}
 
 }

@@ -4,18 +4,16 @@ public class Car extends Vehicle{
 
 	public Car(String name, int i) {
 		super(name, i);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void accelerate() {
-		// TODO Auto-generated method stub
+    System.out.println("pressing gas \n" + "car is moving forward");
 		
 	}
 
 	@Override
 	public void braking() {
-		// TODO Auto-generated method stub
 		
 	}
 
